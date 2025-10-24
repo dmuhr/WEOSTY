@@ -48,7 +48,7 @@ Each `Multi` object allows you to configure mappings between MIDI/automation inp
 | **Cue Name**   | Exact cue name in Lightkey (case sensitive). Must match Lightkey cue name exactly. |
 | **Function**   | The OSC function sent to Lightkey. Options: <br> - **On/Off**: Activate on Note On, deactivate on Note Off (can set `Hold` to ignore Note Off). <br> - **Intensity**: Requires Lightkey Control Type “Fader”; maps velocity/CC/automation to intensity (0–1). <br> - **Toggle**: Toggles state each time the input is received, independent of Note On/Off. <br> - **Modifiers**: Requires Lightkey modifier enabled; available functions: `speed`, `beatMultiplier`, `timeOffset`, `fadeTime`, `dimmer`, `hue`, `colorTemperature`, `greenSaturation`, `xfadeToColor`, `panAngle`, `tiltAngle`, `focus`, `zoomAngle`, `irisSize`, `frostAmount`, `fogAmount`. |
 | **Hold**       | Ignores Note Off messages when enabled (useful for sustaining On/Off or Toggle). |
-| **Fade in/out**| Overrides cue fade time (only affects On/Off or Toggle). *Useful* Can be automated! |
+| **Fade in/out**| Overrides cue fade time (only affects On/Off or Toggle). Can be automated! |
 | **Page Name**  | Target a specific Lightkey page. Defaults to `selected`. |
 | **Frame Name** | Target a specific frame within a page (optional). |
 | **Monitor**    | Observe the incoming value from MIDI/CC/automation. Uses RAM!|
