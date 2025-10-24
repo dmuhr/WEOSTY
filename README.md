@@ -1,7 +1,7 @@
-# WEOSTY OSC Parser for Lightkey & Ableton Live
+# WEOSTY - OSC Parser for Lightkey & Ableton Live
 
 **Author:** Diego Muhr  
-**Version:** 1.0  
+**Version:** 1.0 
 
 A Max for Live OSC parser that integrates **Ableton Live** with **Lightkey**, allowing MIDI and automation signals from Live to control Lightkey cues with precise mappings and modifier functions.
 
