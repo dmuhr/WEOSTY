@@ -4,6 +4,8 @@
 
 A Max for Live OSC parser that integrates **Ableton Live** with **Lightkey**, allowing MIDI and automation signals from Live to control Lightkey cues with precise mappings and modifier functions.
 
+<img width="284" height="191" alt="Screenshot 2025-10-24 at 08 51 29" src="https://github.com/user-attachments/assets/866baf06-c5ce-4a2a-9779-f8a3b30d543a" />
+
 ---
 
 ## Included Max for Live Objects
@@ -12,6 +14,7 @@ A Max for Live OSC parser that integrates **Ableton Live** with **Lightkey**, al
 - `WEOSTY_Server` – Server object for monitoring and aggregating OSC messages from multiple `Multi` objects.  
 
 > **Note:** All files (including instances and JS parser) should be stored in the same folder, preferably in Max's `externals` folder.
+
 
 ---
 
@@ -34,6 +37,9 @@ Each `Multi` object allows you to configure mappings between MIDI/automation inp
 - **Automation:** Use the automation slider corresponding to the track.  
 
 ### Columns and Settings
+
+<img width="766" height="198" alt="Screenshot 2025-10-24 at 08 52 50" src="https://github.com/user-attachments/assets/2853212e-f23d-43f2-9c76-6126ffad4b4f" />
+
 
 | Column         | Description |
 |----------------|-------------|
